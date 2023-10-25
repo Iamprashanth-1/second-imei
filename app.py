@@ -79,5 +79,5 @@ def do_magic():
         return redirect(url_for('index', error=str(all_siblings), ))
         return jsonify({'error': all_siblings})
 
-if __name__ == '__main__':
-    app.run(debug=False)
+# if __name__ == '__main__':
+#     app.run(debug=False)
